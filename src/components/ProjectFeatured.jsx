@@ -47,7 +47,45 @@ export default function ProjectFeatured() {
       <h2 className="section-title">Un jeu fait avec passion</h2>
 
       <div className="project-featured">
-        {/* Screenshots */}
+        {/* Texte en haut */}
+        <div className="project-header">
+          <p className="project-tag">RPG Stratégie · Mobile · Android</p>
+          <h3 className="project-name">
+            Profaned
+            <br />
+            <span>Tiles</span>
+          </h3>
+          <p className="project-desc">
+            Un RPG de stratégie au tour par tour.
+            Affrontez des ennemis sur une grille maudite, collectez des reliques,
+            maîtrisez trois capacités spéciales et progressez à travers les mondes.
+          </p>
+
+          <div className="project-stats">
+            <div className="stat">
+              <span className="stat-value">35+</span>
+              <span className="stat-label">Niveaux</span>
+            </div>
+            <div className="stat">
+              <span className="stat-value">3+</span>
+              <span className="stat-label">Mondes</span>
+            </div>
+            <div className="stat">
+              <span className="stat-value">60+</span>
+              <span className="stat-label">Scripts C#</span>
+            </div>
+          </div>
+
+          <div className="tech-pills">
+            <span className="tech-pill">Unity</span>
+            <span className="tech-pill">C#</span>
+            <span className="tech-pill">URP</span>
+            <span className="tech-pill">NavMesh</span>
+            <span className="tech-pill">Android</span>
+          </div>
+        </div>
+
+        {/* Screenshots au milieu, dans leur propre espace */}
         <div className="project-screenshots">
           <div className="screenshots-grid">
             {SCREENSHOTS.map((src, index) => (
@@ -56,51 +94,12 @@ export default function ProjectFeatured() {
           </div>
         </div>
 
-        {/* Infos */}
-        <div className="project-info">
-          <div>
-            <p className="project-tag">RPG Stratégie · Mobile · Android</p>
-            <h3 className="project-name">
-              Profaned
-              <br />
-              <span>Tiles</span>
-            </h3>
-            <p className="project-desc">
-              Un RPG de stratégie au tour par tour.
-              Affrontez des ennemis sur une grille maudite, collectez des reliques,
-              maîtrisez trois capacités spéciales et progressez à travers les mondes.
-            </p>
-
-            <div className="project-stats">
-              <div className="stat">
-                <span className="stat-value">35+</span>
-                <span className="stat-label">Niveaux</span>
-              </div>
-              <div className="stat">
-                <span className="stat-value">3+</span>
-                <span className="stat-label">Mondes</span>
-              </div>
-              <div className="stat">
-                <span className="stat-value">60+</span>
-                <span className="stat-label">Scripts C#</span>
-              </div>
-            </div>
-
-            <div className="tech-pills">
-              <span className="tech-pill">Unity</span>
-              <span className="tech-pill">C#</span>
-              <span className="tech-pill">URP</span>
-              <span className="tech-pill">NavMesh</span>
-              <span className="tech-pill">Android</span>
-            </div>
-          </div>
-
-          <div className="project-actions">
-            <a href={DOWNLOAD_URL} className="btn-primary" onClick={handleDownloadClick}>
-              ⬇ Télécharger la Beta
-            </a>
-            <a href="#contact" className="btn-secondary">Donner un avis</a>
-          </div>
+        {/* Boutons en bas */}
+        <div className="project-actions">
+          <a href={DOWNLOAD_URL} className="btn-primary" onClick={handleDownloadClick}>
+            ⬇ Télécharger la Beta
+          </a>
+          <a href="#contact" className="btn-secondary">Donner un avis</a>
         </div>
       </div>
     </section>

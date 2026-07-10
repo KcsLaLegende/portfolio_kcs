@@ -13,7 +13,7 @@ export default function Hero() {
         <circle cx="150" cy="150" r="110" stroke="#c04820" strokeWidth="0.3" fill="none" />
       </svg>
 
-      <p className="hero-eyebrow">Portfolio — Côte d'Ivoire</p>
+     
 
       <h1 className="hero-name">
         KAMANAN

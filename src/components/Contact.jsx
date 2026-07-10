@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="contact-section fade-in" id="contact" ref={fadeRef}>
       <p className="section-eyebrow">Me joindre</p>
       <h2 className="section-title" style={{ marginBottom: 16 }}>Travaillons ensemble</h2>
-      <p style={{ color: 'var(--gris-clair)', fontSize: 15, lineHeight: 1.8 }}>
+      <p style={{ color: 'var(--gris-clair)', fontSize: 18, lineHeight: 1.8 }}>
         Disponible pour des projets freelance, des collaborations ou simplement
         pour parler de jeux vidéo et de développement.
       </p>
