@@ -580,7 +580,7 @@ section {
   border-radius: 4px;
   text-decoration: none;
   color: var(--gris-clair);
-  font-size: 16px;
+  font-size: 14px;
   transition:
     border-color 0.2s,
     color 0.2s;
